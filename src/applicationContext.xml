@@ -30,6 +30,8 @@
 
         <!-- set up setter injection-->
         <property name="fortuneService" ref="myFortuneService"/>
+        <property name="email" value="theCoach@bestcoaches.edu.pl"/>
+        <property name="teamName" value="Cricket Masters"/>
     </bean>
 
 </beans>
